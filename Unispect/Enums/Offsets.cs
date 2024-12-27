@@ -16,9 +16,9 @@ namespace Unispect
         public const int ImageExportDirectoryAddressOfNames = 0x20;
 
         // These could be a part of structs, but for convenience I'll leave them here.
-        public const int ImageClassCache = 0x4C0;       // MonoImage.ClassCache
-        public const int DomainDomainAssemblies = 0xC8; // MonoDomain.DomainAssemblies
-        public const int AssemblyImage = 0x60;          // MonoAssembly.MonoImage
+        public const int ImageClassCache = 0x4D0;       // MonoImage.ClassCache (unity-2022.3-mbe)
+        public const int DomainDomainAssemblies = 0xA0; // MonoDomain.DomainAssemblies (unity-2022.3-mbe)
+        public const int AssemblyImage = 0x60;          // MonoAssembly.MonoImage (unity-2022.3-mbe)
         public const int ClassNextClassCache = 0x108;   // MonoClassDef.NextClassCache
     }
 }
